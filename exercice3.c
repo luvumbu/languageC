@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
     printf("Valeur exadecimal %x \n",lettre);
        
 
-
+  system("pause");
     return 0;
 }

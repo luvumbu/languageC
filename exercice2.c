@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     printf("Entrer la valeur de B\n") ;  
     scanf("%d",&valeurB);
     echange(valeurA,valeurB,0) ; 
+      system("pause");
     return 0;
 }
 

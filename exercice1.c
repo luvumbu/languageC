@@ -13,13 +13,15 @@ int main(int argc, char *argv[])
 {
     int valeurA = 0;
     int valeurB = 0;
-    printf("Calculer la somme de deux nombre") ; 
-    printf("Entret la premier valeur 'VALEUR A' ") ; 
+    printf("Multiplication de deux nombres\n") ; 
+    printf("ajouter la valeur 'A' au clavier \n") ; 
+
     scanf("%d",&valeurA);
-    printf("Entret la premier valeur 'VALEUR B' ") ; 
+    printf("ajouter la valeur 'B' au clavier \n") ; 
     scanf("%d",&valeurB);
    
     printf("La quotient de %d*%d=%d",valeurA,valeurB, additions(valeurA,valeurB));
+      system("pause");
     return 0;
 }
 int additions(int val1, int val2)

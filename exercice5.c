@@ -22,6 +22,7 @@ tableau[1] = val2;
 tableau[2] = val3;
 */
 monMax(val1,val2,val3) ;
+  system("pause");
 return 0;
 }
 
