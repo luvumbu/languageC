@@ -39,11 +39,6 @@ int monMax(int valeurEntre1,int valeurEntre2, int valeurEntre3)
     {
         printf("LA Valeur entre n3 est la plus grande\n",valeurEntre3) ; 
     }
-
-
-
-
-
         if(valeurEntre1<valeurEntre2 && valeurEntre1<valeurEntre3)
     {
         printf("LA Valeur entre n1 est la plus petite\n",valeurEntre1) ; 
@@ -57,11 +52,4 @@ int monMax(int valeurEntre1,int valeurEntre2, int valeurEntre3)
     {
         printf("LA Valeur entre n3 est la plus petite\n",valeurEntre3) ; 
     }
-
-
-
-
-    
-
-
 }

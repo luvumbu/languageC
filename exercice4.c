@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 // Ecrire un programme qui renvois la valeur d'un nombre paire ou impraire
- int nombres(int nombre)  ; 
+ int nombrespoi(int nombre)  ; 
 int main(int argc, char *argv[])
 {
 int val = 0; 
-printf("Entrer la vakeur du nombre à verifier\n") ; 
+printf("Entrer la valeur du nombre à verifier\n") ; 
 scanf("%d",&val);
 nombres(val);
 return 0;
  
 
-int nombres(int nombre)
+int nombrespoi(int nombre)
 {
 
     int resultat = nombre%2;

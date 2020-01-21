@@ -17,9 +17,12 @@ int main(int argc, char *argv[])
     scanf("%d",&valeurB);
     echange(valeurA,valeurB,0) ; 
     return 0;
-    }
+}
+
+
+
     int echange(int val1, int val2,int val3)
-    {
+{
     printf("A = %d et B= %d \n",val1,val2) ; 
     val3 = val1 ; 
     val1 = val2 ; 

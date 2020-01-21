@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Ecrire un programme qui affiche un code ascii valeur decimal et valeur exadecimal
+// Affiche la valeur la plus grande saissi 
 int monMax(int valeurEntre1,int valeurEntre2, int valeurEntre3) ; 
 int main(int argc, char *argv[])
 {
