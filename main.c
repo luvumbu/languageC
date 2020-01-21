@@ -38,6 +38,7 @@ int main(int argc, char *argv[]) // debut du projet
         printf("Entrer la valeur n-2\n") ; // affiche information a l'utilisateur 
         scanf("%d",&valeurB);    // demande la valeur a l'utilisateur et l'estoque dans une variablee A de type entier
         printf("La somme de %d+%d=%d\n",valeurA,valeurB, additions(valeurA,valeurB));   // affiche la somme du resultat
+        system("pause");
     }
         if(lettre=='2') // Permutation des variables 
     {
@@ -46,6 +47,7 @@ int main(int argc, char *argv[]) // debut du projet
         printf("Entrer la valeur de B\n") ;  // infoormation de l'utilisateur 
         scanf("%d",&valeurB); // demande de saissi a l'utilisateur 
         echange(valeurA,valeurB,0) ; // execution du programme et affichage d'information 
+        system("pause");
     }
         if(lettre=='3')
     {
@@ -58,7 +60,8 @@ int main(int argc, char *argv[]) // debut du projet
         scanf("%d",&val2) ;// demande de saissi a l'utilisateur
         printf("Saissir valeur 3\n") ; 
         scanf("%d",&val3) ;// demande de saissi a l'utilisateur
-        monMax(val1,val2,val3) ;       
+        monMax(val1,val2,val3) ;      
+        system("pause"); 
     }
         if(lettre=='4')// retournee si un nombre est paire ou impaire
     {
@@ -66,6 +69,7 @@ int main(int argc, char *argv[]) // debut du projet
         printf("Entrer la valeur du nombre à verifier\n") ; // information utilisateur   ; 
         scanf("%d",&val);
         nombrespoi(val);
+        system("pause");
         return 0;
     }
 
@@ -84,7 +88,9 @@ int main(int argc, char *argv[]) // debut du projet
         printf("MEnu degrge en radiant\n") ; // information utilisateur   ; 
         double b;
         scanf("%lf",&b);
-        printf("%lf",convertisseurRadiant(b));        
+        printf("%lf",convertisseurRadiant(b)); 
+        system("pause");      
+        system("pause"); 
          }
          else 
          {  
@@ -93,6 +99,7 @@ int main(int argc, char *argv[]) // debut du projet
         double b;
         scanf("%lf",&b);
         printf("%lf", convertisseurDegre(b));
+        system("pause");
          }
          return 0;
     }
@@ -162,6 +169,7 @@ double convertisseurRadiant(double a)
  
 double convertisseurDegre(double a) 
 {
-    return a*180/3.1415 ; 
+    return a*180/3.1415 ;
+    
 }
   
